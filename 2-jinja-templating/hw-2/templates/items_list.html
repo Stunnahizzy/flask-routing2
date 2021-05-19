@@ -1,0 +1,10 @@
+the items are:
+<br>
+{{ items }} <!-- all items in obj format -->
+<br><br>
+the items are also:
+<ul>
+{% for item in items %}
+    <li> {{ item }} </li> <!-- looped thru variant of items -->
+{% endfor %}
+</ul>
