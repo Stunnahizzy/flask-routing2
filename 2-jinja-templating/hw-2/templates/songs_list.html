@@ -1,0 +1,10 @@
+<h1>My playlist: <h1>
+<br><br>
+<h4> {{ songs }} <h4>
+<br>
+the songs are also: 
+<br>
+<ul>
+{% for track in songs %}
+    <li>{{ track }}</li> 
+{% endfor %}
